@@ -1,16 +1,17 @@
 import './App.css';
 import Cover from "./components/cover/cover";
-import Galeria from './components/Galeria';
+import Navbar from "./components/Navbar/Navbar";
+
 
 
 
 function App() {
   return (
     <div className="App">
-     
+
+    <Navbar/>
     <Cover/>
-    <h1>QBONITOTODO</h1>
-    <button onClick={Galeria}></button>
+    
 
     </div>
   );
