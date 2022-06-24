@@ -24,3 +24,9 @@
     color: white;
     font-size: 32px;
 }
+.scrolling {
+    height: 80px;
+    line-height: 80px;
+    color:white;
+    cursor: pointer;
+}
