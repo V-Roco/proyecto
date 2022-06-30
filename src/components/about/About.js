@@ -1,20 +1,19 @@
-import React from "react";
-import "./About.css"
-import Dc from "../../media/Dc.jpg";
-
-
+import React from 'react'
+import "./About.css";
+import Img from "../../media/ab.jpg";
 
 const About = () => {
   return (
-    <div className="about-container">
-        <div className="about-desc">
-            <h3>Sobre mi </h3>
-
+    <div className='about-container'>
+        <div className='about-desc'>
+            <h3>Sobre Nosotros</h3>
+            <p>"informacion"</p>
         </div>
-        <div className="about-img">
-            <img src Dc alt="aboult"/>
+        <div className='about-img'>
+            <img src={Img} alt="about" />
         </div>
     </div>
-  )
-}
-export default About 
+  );
+};
+
+export default About
